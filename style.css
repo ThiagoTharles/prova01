@@ -15,7 +15,7 @@ header {
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 20px;
     background-color: #555;
     overflow: hidden;
 }
@@ -41,7 +41,7 @@ nav ul li ul {
     background-color: #555;
 }
 
-nav ul li:hover ul {
+#markdown ul {
     display: block;
 }
 
@@ -51,7 +51,7 @@ nav ul li ul li {
 }
 
 button {
-    background-color: aqua;
+    background-color: #fff;
     border: none;
     padding: 15px;
     border-radius: 8px;
@@ -78,6 +78,12 @@ button:active {
     margin-right: 20px;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 #content {
     flex: 3;
     background-color: #fff;
@@ -93,7 +99,7 @@ section {
     margin-bottom: 20px;
 }
 
-section title {
+title {
     font-size: 24px;
     font-weight: bold;
     color: #333;
