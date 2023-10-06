@@ -41,7 +41,7 @@ nav ul li ul {
     background-color: #555;
 }
 
-#markdown ul {
+#markdown:active ul {
     display: block;
 }
 
