@@ -50,6 +50,21 @@ nav ul li ul li {
     border-top: 1px solid #777;
 }
 
+.botao {
+    background-color: aqua;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 3px 7px 5px;
+    transition: transform 400ms, box-shadow 400ms;
+}
+
+.botao:active {
+    box-shadow: 2px 3px 1px;
+    transform: translate(4px, 6px);
+}
+
 #blog {
     display: flex;
     margin: 20px;
