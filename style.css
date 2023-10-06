@@ -50,7 +50,7 @@ nav ul li ul li {
     border-top: 1px solid #777;
 }
 
-.botao {
+button {
     background-color: aqua;
     border: none;
     padding: 15px;
@@ -60,7 +60,7 @@ nav ul li ul li {
     transition: transform 400ms, box-shadow 400ms;
 }
 
-.botao:active {
+button:active {
     box-shadow: 2px 3px 1px;
     transform: translate(4px, 6px);
 }
