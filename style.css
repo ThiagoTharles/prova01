@@ -95,7 +95,7 @@ button:active {
 }
 
 li {
-   margin: 10px; 
+    margin: 10px;
 }
 
 #content {
@@ -115,7 +115,7 @@ section {
     margin-bottom: 20px;
 }
 
-h1 {
+ section h1 {
     font-size: 24px;
     font-weight: bold;
     color: #333;
@@ -127,37 +127,38 @@ p {
 }
 
 .loader {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  display: inline-block;
-  border-top: 3px solid #000;
-  border-right: 3px solid transparent;
-  box-sizing: border-box;
-  animation: rotation 1s linear infinite;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 3px solid #000;
+    border-right: 3px solid transparent;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
 }
 
 @keyframes rotation {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-} 
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
 
-@media screen and (max-width: 600px){
-    #blog{
+/* Media query */
+@media screen and (max-width: 600px) {
+    #blog {
         flex-direction: column;
     }
-    #content{
+    #content {
         width: 100vw;
     }
-    #lmenu{
+    #lmenu {
         width: 100vw;
         height: 20vh;
     }
-    #lmenu ul{
+    #lmenu ul {
         flex-direction: row;
         justify-content: center;
     }
